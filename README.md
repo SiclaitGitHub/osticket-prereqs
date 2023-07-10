@@ -105,6 +105,8 @@ When developers create software using Microsoft Visual C++, they often need to u
  
 MySQL is an open-source relational database management system (RDBMS) that uses Structured Query Language (SQL) to access, add, or manage content in a database. SQL is the most commonly used language for interacting with databases.
 
+Select a "Typical" Installastion and a "Standard" Configuration when prompted after installation. 
+
 
 
   
