@@ -38,7 +38,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 1. Set up your Azure Virtual Machine
 
-   Create a new Azure resource group, virtual network, subnet and virtual machine running Windows 10. Choose a VM size according to your needs. Once the VM is set up, you will need to connect to it using Remote Desktop. For this, you'll need the public IP address of the VM and the credentials you provided during the VM setup.
+Create a new Azure resource group, virtual network, subnet and virtual machine running Windows 10. Choose a VM size according to your needs. Once the VM is set up, you will need to connect to it using Remote Desktop. For this, you'll need the public IP address of the VM and the credentials you provided during the VM setup.
 </p>
 <br />
 
@@ -73,6 +73,8 @@ osTicket runs on a web server, so the first prerequisite to install is Internet 
 <p>
 3. Install PHP
 
+PHP, which stands for "PHP: Hypertext Preprocessor" (originally "Personal Home Page"), is a popular open-source, server-side scripting language that's widely used for web development. It's embedded within HTML code and used to generate dynamic content on web pages.
+
 osTicket is written in PHP, so you need to install PHP and configure it to work with IIS.
    
    - Download PHP from the official website. Choose the VC15 x64 Non Thread Safe version that suits your needs.
@@ -88,10 +90,20 @@ osTicket is written in PHP, so you need to install PHP and configure it to work 
 Microsoft Visual C++ Redistributable Package  is a library file required by many applications that have been developed using Microsoft Visual C++.
 
 When developers create software using Microsoft Visual C++, they often need to use "libraries" – collections of code that perform common functions. This way, they don't have to program these functions themselves. The Visual C++ Redistributable is exactly that: a package of libraries that software can use. The `VC_redist.x86.exe` is the installer for these libraries on a 32-bit system.
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+5. Install MySQL
+ 
+MySQL is an open-source relational database management system (RDBMS) that uses Structured Query Language (SQL) to access, add, or manage content in a database. SQL is the most commonly used language for interacting with databases.
+
+
+
   
   <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-5. Install osTicket
+6. Install osTicket
 
    - Download the latest version of osTicket from the official website.
    - Extract the contents of the archive to your web server's root directory.
