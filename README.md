@@ -107,6 +107,7 @@ MySQL is an open-source relational database management system (RDBMS) that uses 
 
 Select a "Typical" Installastion and a "Standard" Configuration when prompted after installation. 
 
+Create log in credentials and select "Execute" to complete set up.
 
 
   
