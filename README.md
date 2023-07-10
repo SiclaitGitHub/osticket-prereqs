@@ -71,11 +71,22 @@ osTicket runs on a web server, so the first prerequisite to install is Internet 
 
 <p>
 
+<img width="961" alt="Screen Shot 2023-07-10 at 6 18 57 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/b322f44e-fe7f-4d18-8aba-b839873bda1b">
+
+</p>
+<p>
+3. Install Rewrite Module 
+
+A rewrite module, often referred to as URL rewriting engine, is a software component that allows for the modification of incoming URL requests in a web server. The module operates based on predefined rules, allowing it to make complex changes to URLs, either for the purpose of URL redirection or to make URLs more human-readable and SEO-friendly.
+   
+   - Download the lastest version of the Rewrite Module off of the website 
+
+
 <img width="899" alt="Screen Shot 2023-07-10 at 2 17 15 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/2f3f8615-9619-4ed3-97b8-09f3591052e0">
 
 </p>
 <p>
-3. Install PHP Manager
+4. Install PHP Manager
 
 PHP, which stands for "PHP: Hypertext Preprocessor" (originally "Personal Home Page"), is a popular open-source, server-side scripting language that's widely used for web development. It's embedded within HTML code and used to generate dynamic content on web pages.
 
@@ -92,7 +103,7 @@ osTicket is written in PHP, so you need to install PHP and configure it to work 
 <img width="914" alt="Screen Shot 2023-07-10 at 2 52 06 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/caf6b9be-7293-4f69-94bc-b9cefecc0bc1">
 
 
-4. Install Redistributable Package
+5. Install Redistributable Package
 
 Microsoft Visual C++ Redistributable Package  is a library file required by many applications that have been developed using Microsoft Visual C++.
 
@@ -101,7 +112,7 @@ When developers create software using Microsoft Visual C++, they often need to u
 
 <img width="882" alt="Screen Shot 2023-07-10 at 2 54 55 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/d3953e7f-3009-49ee-8745-9a08c80d993b">
 
-5. Install MySQL
+6. Install MySQL
  
 MySQL is an open-source relational database management system (RDBMS) that uses Structured Query Language (SQL) to access, add, or manage content in a database. SQL is the most commonly used language for interacting with databases.
 
@@ -113,7 +124,7 @@ Create log in credentials and select "Execute" to complete set up.
   
   <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-6. Install osTicket
+7. Install osTicket
 
   - Open IIS (Run as Administrator) on VM.
   - Select "PHP Manager".
