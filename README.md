@@ -98,8 +98,8 @@ Microsoft Visual C++ Redistributable Package  is a library file required by many
 
 When developers create software using Microsoft Visual C++, they often need to use "libraries" – collections of code that perform common functions. This way, they don't have to program these functions themselves. The Visual C++ Redistributable is exactly that: a package of libraries that software can use. The `VC_redist.x86.exe` is the installer for these libraries on a 32-bit system.
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+<img width="882" alt="Screen Shot 2023-07-10 at 2 54 55 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/d3953e7f-3009-49ee-8745-9a08c80d993b">
 
 5. Install MySQL
  
