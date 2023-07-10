@@ -50,6 +50,8 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 <p>
 2. Install Web Server
 
+A web server is a server that hosts websites and web applications, serving them to users over the internet. It's a computer system that processes HTTP requests, which are the core communication protocol for the World Wide Web.
+
 osTicket runs on a web server, so the first prerequisite to install is Internet Information Services (IIS) in Windows with CGI, a flexible, secure and manageable web server for hosting anything on the web. To install IIS on your Windows 10 VM:
    
    - Open the "Control Panel" on your VM.
