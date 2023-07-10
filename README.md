@@ -140,5 +140,20 @@ Create log in credentials and select "Execute" to complete set up.
   - Reopen IIS and select "Restart".
   - Under the IIS Server named "VM1 (VM1\User305) select "Sites" then select "Default web Site" then select "osTicket".
   - On the "osTicket Home" page on IIS click "Browse *:80" on the right side of the page.
-  - osTicket application should open in a new tab on web browser. 
+  - osTicket application should open in a new tab on web browser.
+
+
+<img width="1072" alt="Screen Shot 2023-07-10 at 6 51 40 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/5754d0b7-3728-47fd-9e4d-ce53cb8c1190">
+
+
+8. Enable features In osTicket 
+
+- Open IIS Manager
+- Select Server (VM1\User305) then select "Site" Then "Defaulet Web Site" Then "osTicket"
+- Select "PHP Manager"
+- Under "PHP Extensions" select "Enable or disable an extension"
+- Enable the folowing extensions: "php_imap.dll" , "php_intl.dll", "php_opcache.dll"
+- 
+
+
 
