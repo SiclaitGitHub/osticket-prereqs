@@ -126,5 +126,6 @@ Create log in credentials and select "Execute" to complete set up.
   - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
   - Reopen IIS and select "Restart".
   - Under the IIS Server named "VM1 (VM1\User305) select "Sites" then select "Default web Site" then select "osTicket".
-  - On the "ostichet Home" page on ISS click "
+  - On the "osTicket Home" page on IIS click "Browse *:80" on the right side of the page.
+  - 
 
