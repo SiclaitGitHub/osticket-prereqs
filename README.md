@@ -115,15 +115,16 @@ Create log in credentials and select "Execute" to complete set up.
 
 6. Install osTicket
 
-  - Open IIS (Run as Administrator) on VM
-  - Select "PHP Manager"
-  - Select "Register New PHP Version"
+  - Open IIS (Run as Administrator) on VM.
+  - Select "PHP Manager".
+  - Select "Register New PHP Version".
   - Browse to "PHP" Folder in VM Windows (C:) Drive (Via File Explorer)
-  - Expand "PHP" folder and select "php-cgi" and clock "Ok".
-  - Click "Resart" on PHP manager in IIS
-  - Download latest version of osTicket from the osticket website
-  - Extract and copy “upload” folder to c:\inetpub\wwwroot
+  - Expand "PHP" folder and select "php-cgi" and click "Ok".
+  - Click "Resart" on PHP manager in IIS.
+  - Download latest version of osTicket from the osticket website.
+  - Extract and copy “upload” folder to c:\inetpub\wwwroot.
   - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+  - Reopen IIS and select "Restart".
+  - Under the IIS Server named "VM1 (VM1\User305) select "Sites" then select "Default web Site" then select "osTicket".
+  - On the "ostichet Home" page on ISS click "
 
-
-   
