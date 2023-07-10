@@ -87,7 +87,9 @@ osTicket is written in PHP, so you need to install PHP and configure it to work 
    - Configure IIS to handle PHP requests by adding a module mapping. This can be done from the IIS Manager.
 
 <br />
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<img width="914" alt="Screen Shot 2023-07-10 at 2 52 06 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/caf6b9be-7293-4f69-94bc-b9cefecc0bc1">
 
 
 4. Install Redistributable Package
