@@ -146,7 +146,7 @@ Create log in credentials and select "Execute" to complete set up.
 <img width="1072" alt="Screen Shot 2023-07-10 at 6 51 40 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/5754d0b7-3728-47fd-9e4d-ce53cb8c1190">
 
 
-8. Enable features In osTicket 
+8. Enable PHP Extensions in IIS (PHP Manager) 
 
 - Open IIS Manager
 - Select Server (VM1\User305) then select "Site" Then "Defaulet Web Site" Then "osTicket"
