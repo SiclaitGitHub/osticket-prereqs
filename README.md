@@ -121,5 +121,9 @@ Create log in credentials and select "Execute" to complete set up.
   - Browse to "PHP" Folder in VM Windows (C:) Drive (Via File Explorer)
   - Expand "PHP" folder and select "php-cgi" and clock "Ok".
   - Click "Resart" on PHP manager in IIS
-  - 
+  - Download latest version of osTicket from the osticket website
+  - Extract and copy “upload” folder to c:\inetpub\wwwroot
+  - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+
+
    
