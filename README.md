@@ -25,9 +25,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Internet Information Services (IIS)
-- PHP Manager
+- PHP Manager / PHP Zip File
 - Redistributable Package
 - MySQL
+- Rewrite Module
+  
 
 <h2>Installation Steps</h2>
 
