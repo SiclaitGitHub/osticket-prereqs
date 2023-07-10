@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Internet Information Services (IIS)
 - PHP Manager
-- Item 3
+- Redistributable Package
 - Item 4
 - Item 5
 
@@ -73,7 +73,7 @@ osTicket runs on a web server, so the first prerequisite to install is Internet 
 <p>
 3. Install PHP
 
-   osTicket is written in PHP, so you need to install PHP and configure it to work with IIS.
+osTicket is written in PHP, so you need to install PHP and configure it to work with IIS.
    
    - Download PHP from the official website. Choose the VC15 x64 Non Thread Safe version that suits your needs.
    - Extract the downloaded zip file to a desired location.
@@ -83,13 +83,11 @@ osTicket runs on a web server, so the first prerequisite to install is Internet 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
-4. Install MySQL Server
+4. Install Redistributable Package
 
-   osTicket stores its data in a MySQL database, so you'll need to install MySQL Server.
+Microsoft Visual C++ Redistributable Package  is a library file required by many applications that have been developed using Microsoft Visual C++.
 
-   - Download MySQL Installer from the official website and run it.
-   - During the setup, choose "Server only" as the setup type.
-   - Proceed through the installation and configure the server as per your needs.
+When developers create software using Microsoft Visual C++, they often need to use "libraries" – collections of code that perform common functions. This way, they don't have to program these functions themselves. The Visual C++ Redistributable is exactly that: a package of libraries that software can use. The `VC_redist.x86.exe` is the installer for these libraries on a 32-bit system.
   
   <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
