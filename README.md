@@ -137,7 +137,7 @@ Create log in credentials and select "Execute" to complete set up.
   - Click "Resart" on PHP manager in IIS.
   - Download latest version of osTicket from the osticket website.
   - Extract and copy “upload” folder to c:\inetpub\wwwroot.
-  - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+  - Within c:\inetpub\wwwroot, Rename “upload” folder to “osTicket”
   - Reopen IIS and select "Restart".
   - Under the IIS Server named "VM1 (VM1\User305) select "Sites" then select "Default web Site" then select "osTicket".
   - On the "osTicket Home" page on IIS click "Browse *:80" on the right side of the page.
