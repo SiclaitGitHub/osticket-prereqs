@@ -83,7 +83,8 @@ PHP, which stands for "PHP: Hypertext Preprocessor" (originally "Personal Home P
 osTicket is written in PHP, so you need to install PHP and configure it to work with IIS.
    
    - Download PHP from the official website. Choose the VC15 x64 Non Thread Safe version that suits your needs.
-   - Extract the downloaded zip file to a desired location.
+   - In File Explorer create new foleder in Windows (C:) Drive titled "PHP"
+   - Extract the downloaded zip file to new "PHP" folder.
    - Configure IIS to handle PHP requests by adding a module mapping. This can be done from the IIS Manager.
 
 <br />
@@ -115,8 +116,11 @@ Create log in credentials and select "Execute" to complete set up.
 
 6. Install osTicket
 
-   - Download the latest version of osTicket from the official website.
-   - Extract the contents of the archive to your web server's root directory.
-   - Create a new MySQL database for osTicket using the MySQL command-line client or a tool like phpMyAdmin.
-   - Navigate to your osTicket site in a web browser. You should see the osTicket installation page.
-   - Follow the prompts to connect osTicket to your database and configure your new support ticket system.
+  - Open IIS (Run as Administrator) on VM
+  - Select "PHP Manager"
+  - Select "Register New PHP Version"
+  - Browse to "PHP" Folder in VM Windows (C:) Drive (Via File Explorer)
+  - Expand "PHP" folder and select "php-cgi" and clock "Ok".
+  - Click "Resart" on PHP manager in IIS
+  - 
+   
