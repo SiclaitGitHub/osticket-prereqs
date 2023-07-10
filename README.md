@@ -123,9 +123,8 @@ Select a "Typical" Installastion and a "Standard" Configuration when prompted af
 
 Create log in credentials and select "Execute" to complete set up.
 
+<img width="829" alt="Screen Shot 2023-07-10 at 6 43 08 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/933c8225-afdc-4f4a-a3b2-131f67017bde">
 
-  
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 7. Install osTicket
 
@@ -141,5 +140,5 @@ Create log in credentials and select "Execute" to complete set up.
   - Reopen IIS and select "Restart".
   - Under the IIS Server named "VM1 (VM1\User305) select "Sites" then select "Default web Site" then select "osTicket".
   - On the "osTicket Home" page on IIS click "Browse *:80" on the right side of the page.
-  - 
+  - osTicket application should open in a new tab on web browser. 
 
