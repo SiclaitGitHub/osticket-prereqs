@@ -75,7 +75,7 @@ osTicket runs on a web server, so the first prerequisite to install is Internet 
 
 </p>
 <p>
-3. Install PHP
+3. Install PHP Manager
 
 PHP, which stands for "PHP: Hypertext Preprocessor" (originally "Personal Home Page"), is a popular open-source, server-side scripting language that's widely used for web development. It's embedded within HTML code and used to generate dynamic content on web pages.
 
