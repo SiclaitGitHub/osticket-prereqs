@@ -36,7 +36,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+1. Set up your Azure Virtual Machine
+
+   Create a new Azure resource group, virtual network, subnet and virtual machine running Windows 10. Choose a VM size according to your needs. Once the VM is set up, you will need to connect to it using Remote Desktop. For this, you'll need the public IP address of the VM and the credentials you provided during the VM setup.
 </p>
 <br />
 
@@ -44,7 +47,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+2. Install Web Server
+
+ osTicket runs on a web server, so the first prerequisite to install is Internet Information Services (IIS), a flexible, secure and manageable web server for hosting anything on the web. To install IIS on your Windows 10 VM:
+   
+   - Open the "Server Manager" on your VM.
+   - From the "Manage" menu, select "Add Roles and Features".
+   - In the wizard, select "Role-based or feature-based installation" and click "Next".
+   - Select your server from the server pool and click "Next".
+   - In the roles list, check the box for "Web Server (IIS)" and then click "Next".
+   - Click "Next" on the Features step, and then again on the Web Server Role (IIS) step.
+   - Click "Install" to start the installation.
 </p>
 <br />
 
@@ -52,6 +65,32 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+3. Install PHP
+
+   osTicket is written in PHP, so you need to install PHP and configure it to work with IIS.
+   
+   - Download PHP from the official website. Choose the VC15 x64 Non Thread Safe version that suits your needs.
+   - Extract the downloaded zip file to a desired location.
+   - Configure IIS to handle PHP requests by adding a module mapping. This can be done from the IIS Manager.
+
 <br />
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+4. Install MySQL Server
+
+   osTicket stores its data in a MySQL database, so you'll need to install MySQL Server.
+
+   - Download MySQL Installer from the official website and run it.
+   - During the setup, choose "Server only" as the setup type.
+   - Proceed through the installation and configure the server as per your needs.
+  
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+5. Install osTicket
+
+   - Download the latest version of osTicket from the official website.
+   - Extract the contents of the archive to your web server's root directory.
+   - Create a new MySQL database for osTicket using the MySQL command-line client or a tool like phpMyAdmin.
+   - Navigate to your osTicket site in a web browser. You should see the osTicket installation page.
+   - Follow the prompts to connect osTicket to your database and configure your new support ticket system.
