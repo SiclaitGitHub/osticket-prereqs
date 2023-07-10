@@ -50,7 +50,7 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 
 </p>
 <p>
-2. Install Web Server
+2. Install Web Server (IIS)
 
 A web server is a server that hosts websites and web applications, serving them to users over the internet. It's a computer system that processes HTTP requests, which are the core communication protocol for the World Wide Web.
 
