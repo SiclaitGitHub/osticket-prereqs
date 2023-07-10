@@ -43,20 +43,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img width="1072" alt="Screen Shot 2023-07-10 at 1 48 09 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/976060c0-64ba-4fdb-8048-d9ffe89e4297">
+
 </p>
 <p>
 2. Install Web Server
 
- osTicket runs on a web server, so the first prerequisite to install is Internet Information Services (IIS) in Windows with CGI, a flexible, secure and manageable web server for hosting anything on the web. To install IIS on your Windows 10 VM:
+osTicket runs on a web server, so the first prerequisite to install is Internet Information Services (IIS) in Windows with CGI, a flexible, secure and manageable web server for hosting anything on the web. To install IIS on your Windows 10 VM:
    
-   - Open the "Server Manager" on your VM.
-   - From the "Manage" menu, select "Add Roles and Features".
-   - In the wizard, select "Role-based or feature-based installation" and click "Next".
-   - Select your server from the server pool and click "Next".
-   - In the roles list, check the box for "Web Server (IIS)" and then click "Next".
-   - Click "Next" on the Features step, and then again on the Web Server Role (IIS) step.
-   - Click "Install" to start the installation.
+   - Open the "Control Panel" on your VM.
+   - From the "Control Panel" menu, select "Programs".
+   - Select "Turn Windows features on or off" under "Programs and Features".
+   - Check the "Internet Information Services" box.
+   - Expand the "Internet Information Services" box and select "World Wide Web Services"
+   - Expand the "World Wide Web Services" box then slect and expand "Application Development Features"
+   - Select "CGI".
+   - Collapse the "Application Development Features" box then select and expand "Common HTTP Features".
+   - Make sure all boxes under "Common HTTP Features" are checked. 
+   - Click "Ok" to begin installation. 
 </p>
 <br />
 
