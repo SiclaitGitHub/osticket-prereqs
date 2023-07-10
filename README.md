@@ -48,7 +48,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 2. Install Web Server
 
- osTicket runs on a web server, so the first prerequisite to install is Internet Information Services (IIS), a flexible, secure and manageable web server for hosting anything on the web. To install IIS on your Windows 10 VM:
+ osTicket runs on a web server, so the first prerequisite to install is Internet Information Services (IIS) in Windows with CGI, a flexible, secure and manageable web server for hosting anything on the web. To install IIS on your Windows 10 VM:
    
    - Open the "Server Manager" on your VM.
    - From the "Manage" menu, select "Add Roles and Features".
