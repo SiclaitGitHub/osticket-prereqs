@@ -66,7 +66,9 @@ osTicket runs on a web server, so the first prerequisite to install is Internet 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img width="899" alt="Screen Shot 2023-07-10 at 2 17 15 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/2f3f8615-9619-4ed3-97b8-09f3591052e0">
+
 </p>
 <p>
 3. Install PHP
