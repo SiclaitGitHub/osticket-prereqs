@@ -188,9 +188,12 @@ HeidiSQL allows you to browse and edit data, create and edit tables, views, proc
 
 11. Create New Database Connection
 
--Selected "New" to create a new database connection
--Login using the credential created earlier in the process
--
+- Selected "New" to create a new database connection.
+- Login using the credential created earlier in the process then click "open".
+- In the HediSQL window right click the "Unnamed" database title then select "Create new Database".
+- Title the new database "osTicket".
+- In the OsTicked window complete the installation prompts using the same login credentials and the MySQL database titled "osTicked".
+- Click "Install Now".
 
 
 
