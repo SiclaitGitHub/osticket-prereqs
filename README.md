@@ -41,6 +41,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 1. Set up your Azure Virtual Machine
 
+Azure is a cloud computing platform and service offered by Microsoft. It provides a wide range of cloud services that enable organizations to build, deploy, and manage applications and services through Microsoft-managed data centers.
 
 A virtual machine (VM) on Microsoft Azure is a computing resource that uses software instead of a physical computer to run programs and deploy apps. Each VM instance can run its own operating system (OS), which means multiple VMs can run different operating systems on the same physical machine.
 
