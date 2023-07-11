@@ -205,7 +205,7 @@ HeidiSQL allows you to browse and edit data, create and edit tables, views, proc
 - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 - Right click "ost-config.php" folder the select "Properties" then "Advanced" and th click "Everone"
 - Once "Everyone"  is selected click "Edit" and unselect "Write" and "Modify" permissions.
-- Clock "Ok"
+- Click "Ok"
 
 
 
