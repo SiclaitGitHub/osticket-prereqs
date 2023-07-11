@@ -195,7 +195,8 @@ HeidiSQL allows you to browse and edit data, create and edit tables, views, proc
 - In the OsTicked window complete the installation prompts using the same login credentials and the MySQL database titled "osTicked".
 - Click "Install Now".
 
-<img width="1213" alt="Screen Shot 2023-07-10 at 9 05 28 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/ddc406b8-41b6-4fe7-a91f-56bce0a97c59">
+
+<img width="1236" alt="Screen Shot 2023-07-10 at 9 29 46 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/869abda6-cefc-4a89-b94d-62a0fdc496cd">
 
   
 12. Clean Up
