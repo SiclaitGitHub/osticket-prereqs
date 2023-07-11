@@ -207,6 +207,13 @@ HeidiSQL allows you to browse and edit data, create and edit tables, views, proc
 - Once "Everyone"  is selected click "Edit" and unselect "Write" and "Modify" permissions.
 - Click "Ok"
 
+  <img width="650" alt="Screen Shot 2023-07-10 at 9 33 49 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/730c3f5a-020c-4eae-8d7a-a46035e06246">
+
+
+13. Verify osTicket Login
+
+- Using the URL "http://localhost/osTicket/scp/index.php" log in using the admin credentials creared relier in the process. 
+
 
 
 
