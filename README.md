@@ -180,7 +180,17 @@ HeidiSQL is a lightweight, Windows-based application for managing databases. It 
 
 HeidiSQL allows you to browse and edit data, create and edit tables, views, procedures, triggers, and scheduled events. It also offers a range of other tools for database administration, including managing user privileges, running SQL queries, importing and exporting data, and more.
 
--Download the latest version of HediSQOl off of the website 
+-Download  and install the latest version of HediSQOl off of the website 
+
+
+<img width="1213" alt="Screen Shot 2023-07-10 at 9 05 28 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/bb8a49af-34ee-434f-a982-6e52370ea1aa">
+
+
+11. Create New Database Connection 
+
+-Select "New" in the HediSQL window to create a new database connection
+-Login using the credentials created earlier in the process
+-
   
 
 
