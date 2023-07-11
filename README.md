@@ -195,6 +195,18 @@ HeidiSQL allows you to browse and edit data, create and edit tables, views, proc
 - In the OsTicked window complete the installation prompts using the same login credentials and the MySQL database titled "osTicked".
 - Click "Install Now".
 
+<img width="1213" alt="Screen Shot 2023-07-10 at 9 05 28 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/ddc406b8-41b6-4fe7-a91f-56bce0a97c59">
+
+  
+12. Clean Up
+    
+- Delete: C:\inetpub\wwwroot\osTicket\"setup" folder
+- Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+- Right click "ost-config.php" folder the select "Properties" then "Advanced" and th click "Everone"
+- Once "Everyone"  is selected click "Edit" and unselect "Write" and "Modify" permissions.
+- Clock "Ok"
+
+
 
 
 
