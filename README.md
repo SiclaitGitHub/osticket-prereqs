@@ -167,9 +167,21 @@ Create log in credentials and select "Execute" to complete set up.
 
 9. Complete osTicket Installation - Help Desj Credential
 
+- Open osTciket Intstallatio Window
 - Create Helpdesk URl
 - Create Admin User Credentials
-- 
+
+<img width="941" alt="Screen Shot 2023-07-10 at 9 03 16 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/1848896f-0c90-4527-b8a2-99aeb4ac7f45">
+
+
+10. Install HediSOL - Database
+
+HeidiSQL is a lightweight, Windows-based application for managing databases. It supports various database systems such as MySQL, Microsoft SQL Server, and PostgreSQL.
+
+HeidiSQL allows you to browse and edit data, create and edit tables, views, procedures, triggers, and scheduled events. It also offers a range of other tools for database administration, including managing user privileges, running SQL queries, importing and exporting data, and more.
+
+-Download the latest version of HediSQOl off of the website 
+  
 
 
 
