@@ -28,7 +28,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - PHP Manager / PHP Zip File
 - Redistributable Package
 - Rewrite Module
-- MySQL Server Database 
+- MySQL Server Database
+- HediSQL
 
   
 
