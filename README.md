@@ -149,11 +149,28 @@ Create log in credentials and select "Execute" to complete set up.
 8. Enable PHP Extensions in IIS (PHP Manager) 
 
 - Open IIS Manager
-- Select Server (VM1\User305) then select "Site" Then "Defaulet Web Site" Then "osTicket"
-- Select "PHP Manager"
-- Under "PHP Extensions" select "Enable or disable an extension"
-- Enable the folowing extensions: "php_imap.dll" , "php_intl.dll", "php_opcache.dll"
+- Select Server (VM1\User305) then select "Site" Then "Defaulet Web Site" Then "osTicket".
+- Select "PHP Manager".
+- Under "PHP Extensions" select "Enable or disable an extension".
+- Enable the folowing extensions: "php_imap.dll" , "php_intl.dll", "php_opcache.dll".
+- Refresh the osTicket window. Some the red "x"s should appear as green checks (except the bottom two boxes).
+- Open File Exploer and Browse to "Windows (C:) Drive" then select "inetpub" then select "wwwroot" the select "osTicket".
+- Then Select "Incldue". Scroll down to the file name "ots-sampleconfig.php" and rename the file "ost-config.php".
+- Right click the "ost-config.php" file and select "Properties"
+- Select "Secutrity" and then select "Advanced"
+- Select "Disable Inheritence" then select "Remove all permission from this device"
+- Select "Add" to add new permissions. Type "everyone" in the propmt bar and click "Check Names". Select "Everyone" and the "OK"
+- Go back to the osTicket window and click "Continue".
+
+<img width="852" alt="Screen Shot 2023-07-10 at 8 35 19 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/26a800f4-8ca7-4b71-a36a-cc7b6af334f0">
+
+
+9. Complete osTicket Installation - Help Desj Credential
+
+- Create Helpdesk URl
+- Create Admin User Credentials
 - 
+
 
 
 
