@@ -186,12 +186,13 @@ HeidiSQL allows you to browse and edit data, create and edit tables, views, proc
 <img width="1213" alt="Screen Shot 2023-07-10 at 9 05 28 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/bb8a49af-34ee-434f-a982-6e52370ea1aa">
 
 
-11. Create New Database Connection 
+11. Create New Database Connection
 
--Select "New" in the HediSQL window to create a new database connection
--Login using the credentials created earlier in the process
+-Selected "New" to create a new database connection
+-Login using the credential created earlier in the process
 -
-  
+
+
 
 
 
