@@ -212,7 +212,7 @@ HeidiSQL allows you to browse and edit data, create and edit tables, views, proc
 
 13. Verify osTicket Login
 
-- Using the URL "http://localhost/osTicket/scp/index.php" log in using the admin credentials creared relier in the process. 
+- Using the URL "http://localhost/osTicket/scp/index.php" log in using the credentials created earlier in the process. 
 
 
 
