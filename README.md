@@ -1,10 +1,15 @@
+
+
+
+
+
 # osticket-prereqs
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-osTicket is a widely-used and trusted open source support ticket system. It seamlessly routes inquiries created via email, web-forms, and API to a simple, easy-to-use, multi-user, web interface. osTicket comes packed with more features and tools than most of the expensive (and complex) support ticket systems on the market.
+osTicket is a widely used and trusted open source support ticket system. It seamlessly routes inquiries created via email, web-forms, and API to a simple, easy-to-use, multi-user, web interface. osTicket comes packed with more features and tools than most of the expensive (and complex) support ticket systems on the market.
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
@@ -66,9 +71,9 @@ osTicket runs on a web server, so the first prerequisite to install is Internet 
    - Select "Turn Windows features on or off" under "Programs and Features".
    - Check the "Internet Information Services" box.
    - Expand the "Internet Information Services" box and select "World Wide Web Services"
-   - Expand the "World Wide Web Services" box then slect and expand "Application Development Features"
+   - Expand the "World Wide Web Services" box, then select and expand "Application Development Features"
    - Select "CGI".
-   - Collapse the "Application Development Features" box then select and expand "Common HTTP Features".
+   - Collapse the "Application Development Features" box, then select and expand "Common HTTP Features".
    - Make sure all boxes under "Common HTTP Features" are checked. 
    - Click "Ok" to begin installation. 
 </p>
@@ -84,7 +89,7 @@ osTicket runs on a web server, so the first prerequisite to install is Internet 
 
 A rewrite module, often referred to as URL rewriting engine, is a software component that allows for the modification of incoming URL requests in a web server. The module operates based on predefined rules, allowing it to make complex changes to URLs, either for the purpose of URL redirection or to make URLs more human-readable and SEO-friendly.
    
-   - Download the lastest version of the Rewrite Module off of the website 
+   - Download the latest version of the Rewrite Module off of the website 
 
 
 <img width="899" alt="Screen Shot 2023-07-10 at 2 17 15 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/2f3f8615-9619-4ed3-97b8-09f3591052e0">
@@ -98,8 +103,8 @@ PHP, which stands for "PHP: Hypertext Preprocessor" (originally "Personal Home P
 osTicket is written in PHP, so you need to install PHP and configure it to work with IIS.
    
    - Download PHP from the official website. Choose the VC15 x64 Non Thread Safe version that suits your needs.
-   - In File Explorer create new foleder in Windows (C:) Drive titled "PHP"
-   - Extract the downloaded zip file to new "PHP" folder.
+   - In File Explorer create new folder in Windows (C:) Drive titled "PHP"
+   - Extract the downloaded zip file to the new "PHP" folder.
    - Configure IIS to handle PHP requests by adding a module mapping. This can be done from the IIS Manager.
 
 <br />
@@ -121,7 +126,7 @@ When developers create software using Microsoft Visual C++, they often need to u
  
 MySQL is an open-source relational database management system (RDBMS) that uses Structured Query Language (SQL) to access, add, or manage content in a database. SQL is the most commonly used language for interacting with databases.
 
-Select a "Typical" Installastion and a "Standard" Configuration when prompted after installation. 
+Select a "Typical" Installation and a "Standard" Configuration when prompted after installation. 
 
 Create log in credentials and select "Execute" to complete set up.
 
@@ -135,8 +140,8 @@ Create log in credentials and select "Execute" to complete set up.
   - Select "Register New PHP Version".
   - Browse to "PHP" Folder in VM Windows (C:) Drive (Via File Explorer)
   - Expand "PHP" folder and select "php-cgi" and click "Ok".
-  - Click "Resart" on PHP manager in IIS.
-  - Download latest version of osTicket from the osticket website.
+  - Click "Restart" on PHP manager in IIS.
+  - Download latest version of osTicket from the osTicket website.
   - Extract and copy “upload” folder to c:\inetpub\wwwroot.
   - Within c:\inetpub\wwwroot, Rename “upload” folder to “osTicket”
   - Reopen IIS and select "Restart".
@@ -151,25 +156,25 @@ Create log in credentials and select "Execute" to complete set up.
 8. Enable PHP Extensions in IIS (PHP Manager) 
 
 - Open IIS Manager
-- Select Server (VM1\User305) then select "Site" Then "Defaulet Web Site" Then "osTicket".
+- Select Server (VM1\User305) then select "Site" Then "Default Web Site" Then "osTicket".
 - Select "PHP Manager".
 - Under "PHP Extensions" select "Enable or disable an extension".
-- Enable the folowing extensions: "php_imap.dll" , "php_intl.dll", "php_opcache.dll".
-- Refresh the osTicket window. Some the red "x"s should appear as green checks (except the bottom two boxes).
-- Open File Exploer and Browse to "Windows (C:) Drive" then select "inetpub" then select "wwwroot" the select "osTicket".
-- Then Select "Incldue". Scroll down to the file name "ots-sampleconfig.php" and rename the file "ost-config.php".
+- Enable the following extensions: "php_imap.dll" , "php_intl.dll", "php_opcache.dll".
+- Refresh the osTicket window. Some of the red "x"s should appear as green checks (except the bottom two boxes).
+- Open File Explorer and Browse to "Windows (C:) Drive" then select "inetpub" then select "wwwroot" the select "osTicket".
+- Then Select "Include". Scroll down to the file name "ots-sampleconfig.php" and rename the file "ost-config.php".
 - Right click the "ost-config.php" file and select "Properties"
-- Select "Secutrity" and then select "Advanced"
-- Select "Disable Inheritence" then select "Remove all permission from this device"
-- Select "Add" to add new permissions. Type "everyone" in the propmt bar and click "Check Names". Select "Everyone" and the "OK"
+- Select "Security" and then select "Advanced"
+- Select "Disable Inheritance" then select "Remove all permission from this device"
+- Select "Add" to add new permissions. Type "everyone" in the prompt bar and click "Check Names". Select "Everyone" and the "OK"
 - Go back to the osTicket window and click "Continue".
 
 <img width="852" alt="Screen Shot 2023-07-10 at 8 35 19 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/26a800f4-8ca7-4b71-a36a-cc7b6af334f0">
 
 
-9. Complete osTicket Installation - Help Desj Credential
+9. Complete osTicket Installation - Help Desk Credential
 
-- Open osTciket Intstallatio Window
+- Open osTciket Installation Window
 - Create Helpdesk URl
 - Create Admin User Credentials
 
@@ -205,7 +210,7 @@ HeidiSQL allows you to browse and edit data, create and edit tables, views, proc
     
 - Delete: C:\inetpub\wwwroot\osTicket\"setup" folder
 - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-- Right click "ost-config.php" folder the select "Properties" then "Advanced" and th click "Everone"
+- Right click "ost-config.php" folder the select "Properties" then "Advanced" and then click "Everyone"
 - Once "Everyone"  is selected click "Edit" and unselect "Write" and "Modify" permissions.
 - Click "Ok"
 
@@ -215,6 +220,7 @@ HeidiSQL allows you to browse and edit data, create and edit tables, views, proc
 13. Verify osTicket Login
 
 - Using the URL "http://localhost/osTicket/scp/index.php" log in using the credentials created earlier in the process. 
+
 
 
 
