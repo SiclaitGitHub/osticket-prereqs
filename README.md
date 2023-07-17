@@ -54,13 +54,27 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 </p>
 <br />
 
+<img width="602" alt="Screen Shot 2023-07-15 at 11 22 30 AM" src="https://github.com/SiclaitGitHub/azure-sentiel/assets/139138443/63021c1d-022d-4f60-972d-854648a0586e">
+
+2. Connect VM1 to Microsoft Remote Desktop
+
+SIEM stands for Security Information and Event Management. It refers to a category of software solutions and technologies that help organizations collect, analyze, and manage security event and log data from various sources across their network infrastructure.
+
+The primary purpose of SIEM is to provide organizations with a centralized platform for real-time monitoring, detection, and response to security incidents and threats. SIEM solutions collect data from a wide range of sources, including security devices (such as firewalls, intrusion detection systems, and antivirus software), servers, applications, and network infrastructure. This data is then aggregated, correlated, and analyzed to identify patterns, anomalies, and potential security breaches.
+
+ - Open Microsoft Remote Desktop on your local computer
+ - Enter the Public IP Address of VM1
+ - Enter login credentials created in Azure when setting up VM1
+ - Virtual Desktop should appear upon log in.
+   
+
 <p>
 
 <img width="1072" alt="Screen Shot 2023-07-10 at 1 48 09 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/976060c0-64ba-4fdb-8048-d9ffe89e4297">
 
 </p>
 <p>
-2. Install Web Server (IIS)
+3. Install Web Server (IIS)
 
 A web server is a server that hosts websites and web applications, serving them to users over the internet. It's a computer system that processes HTTP requests, which are the core communication protocol for the World Wide Web.
 
@@ -85,7 +99,7 @@ osTicket runs on a web server, so the first prerequisite to install is Internet 
 
 </p>
 <p>
-3. Install Rewrite Module 
+4. Install Rewrite Module 
 
 A rewrite module, often referred to as URL rewriting engine, is a software component that allows for the modification of incoming URL requests in a web server. The module operates based on predefined rules, allowing it to make complex changes to URLs, either for the purpose of URL redirection or to make URLs more human-readable and SEO-friendly.
    
@@ -96,7 +110,7 @@ A rewrite module, often referred to as URL rewriting engine, is a software compo
 
 </p>
 <p>
-4. Install PHP Manager
+5. Install PHP Manager
 
 PHP, which stands for "PHP: Hypertext Preprocessor" (originally "Personal Home Page"), is a popular open-source, server-side scripting language that's widely used for web development. It's embedded within HTML code and used to generate dynamic content on web pages.
 
@@ -113,7 +127,7 @@ osTicket is written in PHP, so you need to install PHP and configure it to work 
 <img width="914" alt="Screen Shot 2023-07-10 at 2 52 06 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/caf6b9be-7293-4f69-94bc-b9cefecc0bc1">
 
 
-5. Install Redistributable Package
+6. Install Redistributable Package
 
 Microsoft Visual C++ Redistributable Package  is a library file required by many applications that have been developed using Microsoft Visual C++.
 
@@ -122,7 +136,7 @@ When developers create software using Microsoft Visual C++, they often need to u
 
 <img width="882" alt="Screen Shot 2023-07-10 at 2 54 55 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/d3953e7f-3009-49ee-8745-9a08c80d993b">
 
-6. Install MySQL
+7. Install MySQL
  
 MySQL is an open-source relational database management system (RDBMS) that uses Structured Query Language (SQL) to access, add, or manage content in a database. SQL is the most commonly used language for interacting with databases.
 
@@ -133,7 +147,7 @@ Create log in credentials and select "Execute" to complete set up.
 <img width="829" alt="Screen Shot 2023-07-10 at 6 43 08 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/933c8225-afdc-4f4a-a3b2-131f67017bde">
 
 
-7. Install osTicket
+8. Install osTicket
 
   - Open IIS (Run as Administrator) on VM.
   - Select "PHP Manager".
@@ -153,7 +167,7 @@ Create log in credentials and select "Execute" to complete set up.
 <img width="1072" alt="Screen Shot 2023-07-10 at 6 51 40 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/5754d0b7-3728-47fd-9e4d-ce53cb8c1190">
 
 
-8. Enable PHP Extensions in IIS (PHP Manager) 
+9. Enable PHP Extensions in IIS (PHP Manager) 
 
 - Open IIS Manager
 - Select Server (VM1\User305) then select "Site" Then "Default Web Site" Then "osTicket".
@@ -172,7 +186,7 @@ Create log in credentials and select "Execute" to complete set up.
 <img width="852" alt="Screen Shot 2023-07-10 at 8 35 19 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/26a800f4-8ca7-4b71-a36a-cc7b6af334f0">
 
 
-9. Complete osTicket Installation - Help Desk Credential
+10. Complete osTicket Installation - Help Desk Credential
 
 - Open osTciket Installation Window
 - Create Helpdesk URl
@@ -181,7 +195,7 @@ Create log in credentials and select "Execute" to complete set up.
 <img width="941" alt="Screen Shot 2023-07-10 at 9 03 16 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/1848896f-0c90-4527-b8a2-99aeb4ac7f45">
 
 
-10. Install HediSOL - Database
+11. Install HediSOL - Database
 
 HeidiSQL is a lightweight, Windows-based application for managing databases. It supports various database systems such as MySQL, Microsoft SQL Server, and PostgreSQL.
 
@@ -193,7 +207,7 @@ HeidiSQL allows you to browse and edit data, create and edit tables, views, proc
 <img width="1213" alt="Screen Shot 2023-07-10 at 9 05 28 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/bb8a49af-34ee-434f-a982-6e52370ea1aa">
 
 
-11. Create New Database Connection - HediSQL
+12. Create New Database Connection - HediSQL
 
 - Selected "New" to create a new database connection.
 - Login using the credential created earlier in the process then click "open".
@@ -206,7 +220,7 @@ HeidiSQL allows you to browse and edit data, create and edit tables, views, proc
 <img width="1236" alt="Screen Shot 2023-07-10 at 9 29 46 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/869abda6-cefc-4a89-b94d-62a0fdc496cd">
 
   
-12. Clean Up
+13. Clean Up
     
 - Delete: C:\inetpub\wwwroot\osTicket\"setup" folder
 - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
@@ -217,7 +231,7 @@ HeidiSQL allows you to browse and edit data, create and edit tables, views, proc
   <img width="650" alt="Screen Shot 2023-07-10 at 9 33 49 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/730c3f5a-020c-4eae-8d7a-a46035e06246">
 
 
-13. Verify osTicket Login
+14. Verify osTicket Login
 
 - Using the URL "http://localhost/osTicket/scp/index.php" log in using the credentials created earlier in the process. 
 
